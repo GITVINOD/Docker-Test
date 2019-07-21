@@ -1,7 +1,9 @@
 node {
 
     checkout scm
-    docker.build("vinod/dockerwebapp")    
+    docker.build("vinod/dockerwebapp")  
+    
+}
 
     /*docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
 
@@ -10,4 +12,4 @@ node {
         /* Push the container to the custom Registry */
       /*  customImage.push()
    /* }
-}
+
